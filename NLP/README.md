@@ -1,6 +1,6 @@
 # NLP: Natural Language Processing  
 
-##Introduction  
+## Introduction  
 
 Le NLP ou Traitement Automatique du Language Naturel est un domaine de l'inelligence artificielle qui englobe tous les outils destinés au traitement du language. Nous nous sommes intéressés particulièrement à un de ses domaines d'application: la classification de texte.
 Notre objectif est d'identifier la nature d'une ligne d'un recu de magasin (nom du magasin, adresse, total...).
@@ -16,7 +16,8 @@ Le manque de données et d'informations concernant cette méthode nous a poussé
 
 schema  
 
-La troisième piste explorée et retenue pour ce projet est la piste du "fine tuning" et "transfert learning" d'un modèle existant de type transformers*, pré-entrainé comme le modèle BERT (et toutes ses déclinaisons) de Google.
+La troisième piste explorée et retenue pour ce projet est la piste du "fine tuning" et "transfert learning" d'un modèle existant de type transformers*, pré-entrainé comme le modèle BERT (et toutes ses déclinaisons) de Google.  
+
 *transformers:(nouveau type de réseau utilisant le mechanisme d'attention et surpassant les anciennes méthodes telles que LSTM ou CNN)
 
 
