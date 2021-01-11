@@ -5,7 +5,7 @@
 Le NLP ou Traitement Automatique du Language Naturel est un domaine de l'inelligence artificielle qui englobe tous les outils destinés au traitement du language. Nous nous sommes intéressés particulièrement à un de ses domaines d'application: la classification de texte.
 Notre objectif est d'identifier la nature d'une ligne d'un recu de magasin (nom du magasin, adresse, total...).
 
-image  
+<img src="https://github.com/LauraBreton-leonard/PRD-LB/blob/main/NLP/ReadmeContent/SchemaObjectif.png" width="250" height="250"/>  
 
 L'état de l'art actuel sur le NLP fait ressortir de nombreux types d'algorithmes de deep learning ( réseaux de neurones profonds) adaptés à notre tâche. Les principales méthodes utilisées et performantes sont l'utilisation d'un réseau convolutionnel comme pour le traitement d'image ou l'utilisation de couches LSTM (Long-Short Term Memory) bidirectionnelles. Ces deux méthodes nécéssitent une compréhension assez poussée des réseaux de neuronnes car ils doivent être adaptés au type et au nombre de données disponnibles pour l'entrainement(ajustement des paramètres: nombre de couches, taille, et hyperparametres: nombre d'epoch, taille de "batch").  
 
