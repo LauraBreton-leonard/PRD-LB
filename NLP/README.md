@@ -16,7 +16,7 @@ Xiaohui Zhao, Zhuo Wu, and Xiaoguang Wang":https://www.groundai.com/project/cuti
 
 Le manque de données et d'informations concernant cette méthode nous a poussé à abandonner l'idée de la reproduire, cependant, nous nous en sommes inspirés pour créer des modèles "multi input", (entrée multiples) dont la première entrée serait du texte, traité par l'une des deux méthodes précédente ( LSTM ou convolutionnel) et la deuxième entrée, une entrée numérique de position, traitée comme un problème de regression logistique simple ou réseau de neurones dense.
 
-<img src="https://github.com/LauraBreton-leonard/PRD-LB/blob/main/NLP/ReadmeContent/SchemaMultiInput.png" width="250 height="500"/>
+<img src="https://github.com/LauraBreton-leonard/PRD-LB/blob/main/NLP/ReadmeContent/SchemaMultiInput.png" width="250" height="500"/>
   
   
 La troisième piste explorée et retenue pour ce projet est la piste du "fine tuning" et "transfert learning" d'un modèle existant de type transformers*, pré-entrainé comme le modèle BERT (et toutes ses déclinaisons) de Google.  
