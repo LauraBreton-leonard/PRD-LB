@@ -11,11 +11,14 @@ L'état de l'art actuel sur le NLP fait ressortir de nombreux types d'algorithme
 
 shema 1 et 2 
 
-Une autre piste récente est développée dans le papier:
+Une autre piste récente est développée dans le papier:"CUTIE: Learning to Understand Documents with Convolutional Universal Text Information Extractor, par
+Xiaohui Zhao, Zhuo Wu, and Xiaoguang Wang":https://www.groundai.com/project/cutie-learning-to-understand-documents-with-convolutional-universal-text-information-extractor/  
+
 Le manque de données et d'informations concernant cette méthode nous a poussé à abandonner l'idée de la reproduire, cependant, nous nous en sommes inspirés pour créer des modèles "multi input", (entrée multiples) dont la première entrée serait du texte, traité par l'une des deux méthodes précédente ( LSTM ou convolutionnel) et la deuxième entrée, une entrée numérique de position, traitée comme un problème de regression logistique simple ou réseau de neurones dense.
 
-schema  
-
+<img src="https://github.com/LauraBreton-leonard/PRD-LB/blob/main/NLP/ReadmeContent/SchemaMultiInput.png" width="250 heigt="500"/>
+  
+  
 La troisième piste explorée et retenue pour ce projet est la piste du "fine tuning" et "transfert learning" d'un modèle existant de type transformers*, pré-entrainé comme le modèle BERT (et toutes ses déclinaisons) de Google.  
 
 *transformers:(nouveau type de réseau utilisant le mechanisme d'attention et surpassant les anciennes méthodes telles que LSTM ou CNN)
