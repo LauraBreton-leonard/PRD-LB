@@ -5,7 +5,7 @@
 ## Script  
 Ce script contient toutes les méthodes nécessaires à l'entrainement et à l'évaluation des modèles créés  
 
-importer le fichier "malaisianReceipts.h5" dans ':/content' dans google Colab
+importer le fichier "USDatabase.csv" dans ':/content' dans google Colab
 
 https://colab.research.google.com/drive/17bLMi7Qo4vloJxfuRFhKVNfDH08BXwwT?usp=sharing
 
